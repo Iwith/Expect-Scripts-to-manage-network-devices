@@ -63,7 +63,6 @@ This is the second scripts:
     set password cisco      
     set timeout 3            
     match_max 1000            
-
     spawn telnet $ip   	  
     expect ":"
     send "$username\n"
@@ -74,12 +73,12 @@ This is the second scripts:
     expect "Password:"
     send "$password\n"
     expect "*#"
-    send "terminal length 0\n"                  #对交换机输出结果一次性显示完！        
-    expect "*#"     
+    send "terminal length 0\n"                  #对交换机输出结果一次性显示完！        
+    expect "*#"     
     send  "show run\n"      
-    log_file router.log.$ip.test                #保存的配置的文件名，目录如果没有配置的话，默认是跟脚本在同一个文件夹中。       
-    send "terminal length 48\n"                 #对交换机的输出一次性只显示48行！      
-    send "exit\n"       
+    log_file router.log.$ip.test                #保存的配置的文件名，目录如果没有配置的话，默认是跟脚本在同一个文件夹中。       
+    send "terminal length 48\n"                 #对交换机的输出一次性只显示48行！      
+    send "exit\n"       
     expect eof      
     
     
