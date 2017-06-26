@@ -1,9 +1,10 @@
 # Expect-Scripts-to-manage-network-devices
 These are simple code to manage device of network.
 
-——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————
 
 The frist script is designed to backup network devices automatically.
+
 
 #!/usr/bin/expect             #解释器
 set ip 192.168.70.2           #这个脚本只设置了台机器的IP地址
