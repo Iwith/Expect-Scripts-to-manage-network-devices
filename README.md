@@ -49,5 +49,5 @@ log_file router.log.$ip.test   #将输出导入到 router.log.$ip.test中，这
 
 send "exit\n"                  #退出
 
-expect eof                     #结束此次的备份
+expect eof                     #结束此次的备份 
 
