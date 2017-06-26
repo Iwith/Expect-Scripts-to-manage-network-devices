@@ -52,7 +52,8 @@ The frist script is designed to backup network devices automatically.
     expect eof                      #结束此次的备份 
 
 ———————————————————————————————————————————————
-This is the second scripts:
+
+↓This is the second scripts:     
 
 #the file name "telnet.test"#
 
@@ -82,7 +83,7 @@ This is the second scripts:
     expect eof      
     
     
-这是一个循环，对多台设备进行备份：
+↓这是一个循环，对多台设备进行备份：
 
 #the file name "loop.sh"#
 
@@ -93,7 +94,7 @@ This is the second scripts:
     done < ip.txt                               #将ip.txt中的ip地址作为变量进行导入      
 
 
-这是要备份的设备的列表：  
+↓这是要备份的设备的列表：  
 
 #file name "ip.txt"#  
 
