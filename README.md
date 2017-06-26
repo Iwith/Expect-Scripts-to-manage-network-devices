@@ -102,3 +102,7 @@ The frist script is designed to backup network devices automatically.
     192.168.1.2     
     192.168.1.3     
     ...     
+
+
+最后只要执行 ./loop.sh  即可！       
+---end---
